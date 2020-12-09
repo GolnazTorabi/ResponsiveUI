@@ -26,5 +26,13 @@
         android:layout_margin="@dimen/margin"
         android:gravity="center"
         android:text="The smallest width qualifier specifies the smallest of the screen's two sides, regardless of the device's current orientation, so it's a simple way to specify the overall screen size available for your layout."/>
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/second"
+        android:layout_marginTop="@dimen/margin"
+        android:text="480"
+        android:textColor="@color/white"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
